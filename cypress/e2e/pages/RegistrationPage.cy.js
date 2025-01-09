@@ -36,11 +36,11 @@ class RegistrationPage {
     clickButton(buttonText) {
         cy.contains("button", buttonText).click();
     }
-//ok
+
     // Fill fields with provided data
     fillFields(data) {
         data.forEach((row) => {
-            cy.get(`input[placeholder="${row.Field}"]`).type(row.Value);
+            cy.get(`input[name="${row.Field}"]`).type(row.Value);
         });
     }
 
@@ -62,26 +62,41 @@ class RegistrationPage {
         cy.get(".alert").should("contain", alertText);
     }
 
-    // Select a tile or option by its text
-    selectTileOrOption(text) {
-        cy.contains(".tile, .option", text).click();
+    // Select a tile by its text
+    selectTile(number) {
+        cy.get(".courses-kind-group__item").eq(number).click();
+    }
+
+    // Select a option by its text
+    selectTileOption(text) {
+        cy.get('.main-kind-selector--button').contains(text).click();
+    }
+
+    // Select a option by its text
+    selectOption(text) {
+        cy.get('.sub-kind-selector--button').contains(text).click();
     }
 
     // Select a course by its name
     selectCourse(courseName) {
-        cy.contains(".course-tile", courseName).within(() => {
+        cy.contains(".js-item.registration-courses__course", courseName).within(() => {
             cy.contains("button", "Wybierz").click();
         });
     }
 
     // Select a date excluding specific text
     selectDateExcluding(excludeText) {
-        cy.get(".date-list .date-item").not(`:contains("${excludeText}")`).first().click();
+        cy.get(".timetable__date.js-date-item").not(`:contains("${excludeText}")`).first().within(() => {
+            cy.contains("button", "Wybierz").click();
+        });
     }
 
     // Assert a completed step with a tick icon
     assertStepCompleted(stepNumber) {
-        cy.get(`.step-${stepNumber}.completed`).should("have.class", "tick-icon");
+        cy.get(`.feature_registration-menu__item.d-flex.align-items-center.justify-content-center`)
+        .eq(stepNumber-1)
+        .find('.feature_registration-menu__item-tick')
+        .should('have.class', "icon-tick");
     }
 
     // Assert multiple steps are completed
