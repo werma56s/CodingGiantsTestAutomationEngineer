@@ -36,11 +36,11 @@ class RegistrationPage {
     clickButton(buttonText) {
         cy.contains("button", buttonText).click();
     }
-//ok
+
     // Fill fields with provided data
     fillFields(data) {
         data.forEach((row) => {
-            cy.get(`input[placeholder="${row.Field}"]`).type(row.Value);
+            cy.get(`input[name="${row.Field}"]`).type(row.Value);
         });
     }
 

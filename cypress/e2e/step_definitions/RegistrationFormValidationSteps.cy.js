@@ -64,11 +64,13 @@ Then("the customer remains on the first step of the registration form", () => {
 
 // Scenario: Verify correct error message appears for an incorrect email format
 When('the user enters an invalid email format {string} in {string}', (email, fieldName) => {
-    RegistrationPage.fillFields([{ Field: fieldName, Value: email }]);
+    const label = Object.keys(fieldLabels).find(key => fieldLabels[key] === fieldName)
+    RegistrationPage.fillFields([{ Field: label, Value: email }]);
 });
 
-Then("the following validation message appears under {string}:", (fieldName, validationMessage) => {
-    RegistrationPage.assertValidationMessages([{ Field: fieldName, Message: validationMessage }]);
+Then("the following validation message appears under {string}: {string}", (fieldName, validationMessage) => {
+    const label = Object.keys(fieldLabels).find(key => fieldLabels[key] === fieldName)
+    RegistrationPage.assertValidationMessages([{ key: label, message: validationMessage }]);
 });
 
 // Scenario: Verify correct error message appears for an incorrect phone number format

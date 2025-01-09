@@ -9,10 +9,10 @@
     "uri": "RegistrationFormValidationTests.feature",
     "elements": [
       {
-        "id": "registration-form-validation-tests;verify-required-fields-for-the-first-step-of-the-registration-form",
+        "id": "registration-form-validation-tests;tc-01-verify-required-fields-for-the-first-step-of-the-registration-form",
         "keyword": "Scenario",
         "line": 7,
-        "name": "Verify required fields for the first step of the registration form",
+        "name": "TC-01 Verify required fields for the first step of the registration form",
         "tags": [],
         "type": "scenario",
         "steps": [
@@ -23,7 +23,7 @@
             "name": "Navigate to the Website \"https://devtest.giganciprogramowania.edu.pl/zapisz-sie\"",
             "result": {
               "status": "passed",
-              "duration": 1948000000
+              "duration": 2417000000
             }
           },
           {
@@ -33,7 +33,7 @@
             "name": "the user is on the first step of the registration form",
             "result": {
               "status": "passed",
-              "duration": 32000000
+              "duration": 40000000
             }
           },
           {
@@ -43,7 +43,7 @@
             "name": "the form fields are not prefilled",
             "result": {
               "status": "passed",
-              "duration": 72000000
+              "duration": 81000000
             }
           },
           {
@@ -83,7 +83,7 @@
             "name": "the user leaves the following fields empty:",
             "result": {
               "status": "passed",
-              "duration": 773000000
+              "duration": 873000000
             }
           },
           {
@@ -113,7 +113,7 @@
             "name": "the user \"not checks\" the following checkboxes:",
             "result": {
               "status": "passed",
-              "duration": 51000000
+              "duration": 86000000
             }
           },
           {
@@ -123,7 +123,7 @@
             "name": "the user clicks the \"Dalej\" button",
             "result": {
               "status": "passed",
-              "duration": 167000000
+              "duration": 218000000
             }
           },
           {
@@ -168,7 +168,7 @@
             "name": "the following validation messages appear under each required field:",
             "result": {
               "status": "passed",
-              "duration": 267000000
+              "duration": 372000000
             }
           },
           {
@@ -178,7 +178,7 @@
             "name": "the following alert appears: \"Prosimy uzupełnić wszystkie wymagane pola.\"",
             "result": {
               "status": "passed",
-              "duration": 38000000
+              "duration": 46000000
             }
           },
           {
@@ -188,7 +188,97 @@
             "name": "the customer remains on the first step of the registration form",
             "result": {
               "status": "passed",
-              "duration": 55000000
+              "duration": 65000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "registration-form-validation-tests;tc-02-verify-correct-error-message-appears-for-an-incorrect-email-format",
+        "keyword": "Scenario",
+        "line": 30,
+        "name": "TC-02 Verify correct error message appears for an incorrect email format",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Navigate to the Website \"https://devtest.giganciprogramowania.edu.pl/zapisz-sie\"",
+            "result": {
+              "status": "passed",
+              "duration": 2138000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 31,
+            "name": "the user is on the first step of the registration form",
+            "result": {
+              "status": "passed",
+              "duration": 32000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "the form fields are not prefilled",
+            "result": {
+              "status": "passed",
+              "duration": 67000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 33,
+            "name": "the user enters an invalid email format \"user#example.com\" in \"Adres e-mail\"",
+            "result": {
+              "status": "passed",
+              "duration": 463000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 34,
+            "name": "the user clicks the \"Dalej\" button",
+            "result": {
+              "status": "passed",
+              "duration": 244000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 35,
+            "name": "the following validation message appears under \"Adres e-mail\": \"Nieprawidłowy adres e-mail\"",
+            "result": {
+              "status": "passed",
+              "duration": 75000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 36,
+            "name": "the following alert appears: \"Prosimy uzupełnić wszystkie wymagane pola.\"",
+            "result": {
+              "status": "passed",
+              "duration": 30000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 37,
+            "name": "the customer remains on the first step of the registration form",
+            "result": {
+              "status": "passed",
+              "duration": 46000000
             }
           }
         ]
