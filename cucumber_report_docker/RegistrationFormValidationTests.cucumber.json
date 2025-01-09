@@ -23,7 +23,7 @@
             "name": "Navigate to the Website \"https://devtest.giganciprogramowania.edu.pl/zapisz-sie\"",
             "result": {
               "status": "passed",
-              "duration": 2755000000
+              "duration": 2357000000
             }
           },
           {
@@ -33,7 +33,7 @@
             "name": "the user is on the first step of the registration form",
             "result": {
               "status": "passed",
-              "duration": 46000000
+              "duration": 38000000
             }
           },
           {
@@ -43,7 +43,7 @@
             "name": "the form fields are not prefilled",
             "result": {
               "status": "passed",
-              "duration": 134000000
+              "duration": 77000000
             }
           },
           {
@@ -83,7 +83,7 @@
             "name": "the user leaves the following fields empty:",
             "result": {
               "status": "passed",
-              "duration": 1128000000
+              "duration": 805000000
             }
           },
           {
@@ -113,7 +113,7 @@
             "name": "the user \"not checks\" the following checkboxes:",
             "result": {
               "status": "passed",
-              "duration": 104000000
+              "duration": 56000000
             }
           },
           {
@@ -123,7 +123,7 @@
             "name": "the user clicks the \"Dalej\" button",
             "result": {
               "status": "passed",
-              "duration": 261000000
+              "duration": 162000000
             }
           },
           {
@@ -168,7 +168,7 @@
             "name": "the following validation messages appear under each required field:",
             "result": {
               "status": "passed",
-              "duration": 506000000
+              "duration": 279000000
             }
           },
           {
@@ -178,7 +178,7 @@
             "name": "the following alert appears: \"Prosimy uzupełnić wszystkie wymagane pola.\"",
             "result": {
               "status": "passed",
-              "duration": 67000000
+              "duration": 36000000
             }
           },
           {
@@ -188,7 +188,7 @@
             "name": "the customer remains on the first step of the registration form",
             "result": {
               "status": "passed",
-              "duration": 81000000
+              "duration": 48000000
             }
           }
         ]
@@ -208,7 +208,7 @@
             "name": "Navigate to the Website \"https://devtest.giganciprogramowania.edu.pl/zapisz-sie\"",
             "result": {
               "status": "passed",
-              "duration": 2800000000
+              "duration": 2440000000
             }
           },
           {
@@ -218,7 +218,7 @@
             "name": "the user is on the first step of the registration form",
             "result": {
               "status": "passed",
-              "duration": 46000000
+              "duration": 35000000
             }
           },
           {
@@ -228,7 +228,7 @@
             "name": "the form fields are not prefilled",
             "result": {
               "status": "passed",
-              "duration": 98000000
+              "duration": 79000000
             }
           },
           {
@@ -238,7 +238,7 @@
             "name": "the user enters an invalid format \"user#example.com\" in \"Adres e-mail\"",
             "result": {
               "status": "passed",
-              "duration": 506000000
+              "duration": 647000000
             }
           },
           {
@@ -248,7 +248,7 @@
             "name": "the user clicks the \"Dalej\" button",
             "result": {
               "status": "passed",
-              "duration": 273000000
+              "duration": 162000000
             }
           },
           {
@@ -258,7 +258,7 @@
             "name": "the following validation message appears under \"Adres e-mail\": \"Nieprawidłowy adres e-mail\"",
             "result": {
               "status": "passed",
-              "duration": 91000000
+              "duration": 72000000
             }
           },
           {
@@ -268,7 +268,7 @@
             "name": "the following alert appears: \"Prosimy uzupełnić wszystkie wymagane pola.\"",
             "result": {
               "status": "passed",
-              "duration": 38000000
+              "duration": 30000000
             }
           },
           {
@@ -278,7 +278,7 @@
             "name": "the customer remains on the first step of the registration form",
             "result": {
               "status": "passed",
-              "duration": 54000000
+              "duration": 42000000
             }
           }
         ]
@@ -298,7 +298,7 @@
             "name": "Navigate to the Website \"https://devtest.giganciprogramowania.edu.pl/zapisz-sie\"",
             "result": {
               "status": "passed",
-              "duration": 2916000000
+              "duration": 2334000000
             }
           },
           {
@@ -308,7 +308,7 @@
             "name": "the user is on the first step of the registration form",
             "result": {
               "status": "passed",
-              "duration": 63000000
+              "duration": 35000000
             }
           },
           {
@@ -318,7 +318,7 @@
             "name": "the form fields are not prefilled",
             "result": {
               "status": "passed",
-              "duration": 106000000
+              "duration": 77000000
             }
           },
           {
@@ -328,7 +328,7 @@
             "name": "the user enters an invalid format \"12345665\" in \"Numer kontaktowy\"",
             "result": {
               "status": "passed",
-              "duration": 420000000
+              "duration": 334000000
             }
           },
           {
@@ -338,7 +338,7 @@
             "name": "the user clicks the \"Dalej\" button",
             "result": {
               "status": "passed",
-              "duration": 219000000
+              "duration": 160000000
             }
           },
           {
@@ -348,7 +348,7 @@
             "name": "the following validation message appears under \"Numer kontaktowy\": \"Niepoprawny numer telefonu. Numer powinien zawierać 9 cyfr, z opcjonalnym kierunkowym +48 lub +380 na początku.\"",
             "result": {
               "status": "passed",
-              "duration": 104000000
+              "duration": 77000000
             }
           },
           {
@@ -358,7 +358,7 @@
             "name": "the following alert appears: \"Prosimy uzupełnić wszystkie wymagane pola.\"",
             "result": {
               "status": "passed",
-              "duration": 43000000
+              "duration": 32000000
             }
           },
           {
@@ -368,7 +368,7 @@
             "name": "the customer remains on the first step of the registration form",
             "result": {
               "status": "passed",
-              "duration": 59000000
+              "duration": 44000000
             }
           }
         ]
@@ -388,7 +388,7 @@
             "name": "Navigate to the Website \"https://devtest.giganciprogramowania.edu.pl/zapisz-sie\"",
             "result": {
               "status": "passed",
-              "duration": 2955000000
+              "duration": 2284000000
             }
           },
           {
@@ -398,7 +398,7 @@
             "name": "the user is on the first step of the registration form",
             "result": {
               "status": "passed",
-              "duration": 43000000
+              "duration": 34000000
             }
           },
           {
@@ -408,7 +408,7 @@
             "name": "the form fields are not prefilled",
             "result": {
               "status": "passed",
-              "duration": 100000000
+              "duration": 73000000
             }
           },
           {
@@ -453,7 +453,7 @@
             "name": "the user fills in the following fields:",
             "result": {
               "status": "passed",
-              "duration": 2023000000
+              "duration": 1631000000
             }
           },
           {
@@ -483,7 +483,7 @@
             "name": "the user \"checks\" the following checkboxes:",
             "result": {
               "status": "passed",
-              "duration": 262000000
+              "duration": 210000000
             }
           },
           {
@@ -493,7 +493,7 @@
             "name": "the user clicks the \"Dalej\" button",
             "result": {
               "status": "passed",
-              "duration": 220000000
+              "duration": 175000000
             }
           },
           {
@@ -503,7 +503,7 @@
             "name": "the customer is redirected to the second step of the registration form",
             "result": {
               "status": "passed",
-              "duration": 469000000
+              "duration": 465000000
             }
           },
           {
@@ -513,7 +513,256 @@
             "name": "the first step is marked as completed with a tick icon",
             "result": {
               "status": "passed",
-              "duration": 115000000
+              "duration": 79000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "registration-form-validation-tests;tc-05-verify-the-registration-flow-for-online-annual-courses",
+        "keyword": "Scenario",
+        "line": 65,
+        "name": "TC-05 Verify the registration flow for online annual courses",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Navigate to the Website \"https://devtest.giganciprogramowania.edu.pl/zapisz-sie\"",
+            "result": {
+              "status": "passed",
+              "duration": 2180000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 66,
+            "name": "the user is on the first step of the registration form",
+            "result": {
+              "status": "passed",
+              "duration": 36000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 67,
+            "name": "the form fields are not prefilled",
+            "result": {
+              "status": "passed",
+              "duration": 73000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Field",
+                      "Value"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Imię opiekuna",
+                      "Artur"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Adres e-mail",
+                      "karolgiganci+fakedata80696@gmail.com"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Numer kontaktowy",
+                      "123456651"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Rok urodzenia dziecka",
+                      "2005"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 68,
+            "name": "the user fills in the following fields:",
+            "result": {
+              "status": "passed",
+              "duration": 1471000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Checkbox"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Akceptuję regulamin oraz zapoznałem się z polityką prywatności"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Wyrażam zgodę na otrzymywanie informacji..."
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 74,
+            "name": "the user \"checks\" the following checkboxes:",
+            "result": {
+              "status": "passed",
+              "duration": 219000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 78,
+            "name": "the user clicks the \"Dalej\" button",
+            "result": {
+              "status": "passed",
+              "duration": 186000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 79,
+            "name": "the user selects the \"PROGRAMOWANIE\" carousel tile",
+            "result": {
+              "status": "passed",
+              "duration": 531000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 80,
+            "name": "the user selects the \"Online\" tile",
+            "result": {
+              "status": "passed",
+              "duration": 181000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 81,
+            "name": "the user selects the \"Roczne kursy z programowania\" option",
+            "result": {
+              "status": "passed",
+              "duration": 276000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 82,
+            "name": "the user chooses the course \"Pierwsze kroki w programowaniu (kurs z elementami AI) ONLINE\"",
+            "result": {
+              "status": "passed",
+              "duration": 1611000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 83,
+            "name": "the user selects a date that does not have \"Zapisy na listę rezerwową\"",
+            "result": {
+              "status": "passed",
+              "duration": 577000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Field",
+                      "Value"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Imię ucznia",
+                      "Maciej"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Nazwisko ucznia",
+                      "Testowy"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Nazwisko opiekuna",
+                      "Testowy"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Kod pocztowy",
+                      "26-900"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 84,
+            "name": "the user fills in the following additional fields:",
+            "result": {
+              "status": "passed",
+              "duration": 1315000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 90,
+            "name": "the user clicks the \"Zapisz dziecko\" button",
+            "result": {
+              "status": "passed",
+              "duration": 253000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 91,
+            "name": "the customer is redirected to the agreement step",
+            "result": {
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 4000ms: expected '<div.feature_registration-menu__item.d-flex.align-items-center.justify-content-center.feature_registration-menu__item--completed.feature_registration-menu__item--inactive>' to have class 'feature_registration-menu__item--active'\n    at RegistrationPage.assertStepVisible (cypress/e2e/pages/RegistrationPage.cy.js:4:117)\n    at Context.eval (cypress/e2e/step_definitions/RegistrationFormValidationSteps.cy.js:133:21)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 92,
+            "name": "all steps up to the agreement step are marked as completed",
+            "result": {
+              "status": "skipped"
             }
           }
         ]

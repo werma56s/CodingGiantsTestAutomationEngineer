@@ -62,21 +62,33 @@ class RegistrationPage {
         cy.get(".alert").should("contain", alertText);
     }
 
-    // Select a tile or option by its text
-    selectTileOrOption(text) {
-        cy.contains(".tile, .option", text).click();
+    // Select a tile by its text
+    selectTile(number) {
+        cy.get(".courses-kind-group__item").eq(number).click();
+    }
+
+    // Select a option by its text
+    selectTileOption(text) {
+        cy.get('.main-kind-selector--button').contains(text).click();
+    }
+
+    // Select a option by its text
+    selectOption(text) {
+        cy.get('.sub-kind-selector--button').contains(text).click();
     }
 
     // Select a course by its name
     selectCourse(courseName) {
-        cy.contains(".course-tile", courseName).within(() => {
+        cy.contains(".js-item.registration-courses__course", courseName).within(() => {
             cy.contains("button", "Wybierz").click();
         });
     }
 
     // Select a date excluding specific text
     selectDateExcluding(excludeText) {
-        cy.get(".date-list .date-item").not(`:contains("${excludeText}")`).first().click();
+        cy.get(".timetable__date.js-date-item").not(`:contains("${excludeText}")`).first().within(() => {
+            cy.contains("button", "Wybierz").click();
+        });
     }
 
     // Assert a completed step with a tick icon
