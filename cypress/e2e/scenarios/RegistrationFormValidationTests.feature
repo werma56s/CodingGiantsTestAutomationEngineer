@@ -30,20 +30,20 @@ Feature: Registration Form Validation Tests
     Scenario: TC-02 Verify correct error message appears for an incorrect email format
     Given the user is on the first step of the registration form
     And the form fields are not prefilled
-    When the user enters an invalid email format "user#example.com" in "Adres e-mail"
+    When the user enters an invalid format "user#example.com" in "Adres e-mail"
     And the user clicks the "Dalej" button
     Then the following validation message appears under "Adres e-mail": "Nieprawidłowy adres e-mail"
     And the following alert appears: "Prosimy uzupełnić wszystkie wymagane pola."
     And the customer remains on the first step of the registration form
 
-    # Scenario: TC-03 Verify correct error message appears for an incorrect phone number format
-    # Given the user is on the first step of the registration form
-    # And the form fields are not prefilled
-    # When the user enters an invalid phone number "12345665" in "Numer kontaktowy"
-    # And the user clicks the "Dalej" button
-    # Then the following validation message appears under "Numer kontaktowy": "Niepoprawny numer telefonu. Numer powinien zawierać 9 cyfr, z opcjonalnym kierunkowym +48 lub +380 na początku."
-    # And the following alert appears: "Prosimy uzupełnić wszystkie wymagane pola."
-    # And the customer remains on the first step of the registration form
+    Scenario: TC-03 Verify correct error message appears for an incorrect phone number format
+    Given the user is on the first step of the registration form
+    And the form fields are not prefilled
+    When the user enters an invalid format "12345665" in "Numer kontaktowy"
+    And the user clicks the "Dalej" button
+    Then the following validation message appears under "Numer kontaktowy": "Niepoprawny numer telefonu. Numer powinien zawierać 9 cyfr, z opcjonalnym kierunkowym +48 lub +380 na początku."
+    And the following alert appears: "Prosimy uzupełnić wszystkie wymagane pola."
+    And the customer remains on the first step of the registration form
 
     # Scenario: TC-04 Verify successful submission of the first step with correct data
     # Given the user is on the first step of the registration form

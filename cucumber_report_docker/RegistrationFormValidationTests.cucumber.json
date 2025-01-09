@@ -23,7 +23,7 @@
             "name": "Navigate to the Website \"https://devtest.giganciprogramowania.edu.pl/zapisz-sie\"",
             "result": {
               "status": "passed",
-              "duration": 2417000000
+              "duration": 2174000000
             }
           },
           {
@@ -33,7 +33,7 @@
             "name": "the user is on the first step of the registration form",
             "result": {
               "status": "passed",
-              "duration": 40000000
+              "duration": 39000000
             }
           },
           {
@@ -43,7 +43,7 @@
             "name": "the form fields are not prefilled",
             "result": {
               "status": "passed",
-              "duration": 81000000
+              "duration": 74000000
             }
           },
           {
@@ -83,7 +83,7 @@
             "name": "the user leaves the following fields empty:",
             "result": {
               "status": "passed",
-              "duration": 873000000
+              "duration": 920000000
             }
           },
           {
@@ -113,7 +113,7 @@
             "name": "the user \"not checks\" the following checkboxes:",
             "result": {
               "status": "passed",
-              "duration": 86000000
+              "duration": 84000000
             }
           },
           {
@@ -123,7 +123,7 @@
             "name": "the user clicks the \"Dalej\" button",
             "result": {
               "status": "passed",
-              "duration": 218000000
+              "duration": 208000000
             }
           },
           {
@@ -168,7 +168,7 @@
             "name": "the following validation messages appear under each required field:",
             "result": {
               "status": "passed",
-              "duration": 372000000
+              "duration": 420000000
             }
           },
           {
@@ -178,7 +178,7 @@
             "name": "the following alert appears: \"Prosimy uzupełnić wszystkie wymagane pola.\"",
             "result": {
               "status": "passed",
-              "duration": 46000000
+              "duration": 51000000
             }
           },
           {
@@ -188,7 +188,7 @@
             "name": "the customer remains on the first step of the registration form",
             "result": {
               "status": "passed",
-              "duration": 65000000
+              "duration": 68000000
             }
           }
         ]
@@ -208,7 +208,7 @@
             "name": "Navigate to the Website \"https://devtest.giganciprogramowania.edu.pl/zapisz-sie\"",
             "result": {
               "status": "passed",
-              "duration": 2138000000
+              "duration": 2261000000
             }
           },
           {
@@ -218,7 +218,7 @@
             "name": "the user is on the first step of the registration form",
             "result": {
               "status": "passed",
-              "duration": 32000000
+              "duration": 40000000
             }
           },
           {
@@ -228,17 +228,17 @@
             "name": "the form fields are not prefilled",
             "result": {
               "status": "passed",
-              "duration": 67000000
+              "duration": 75000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 33,
-            "name": "the user enters an invalid email format \"user#example.com\" in \"Adres e-mail\"",
+            "name": "the user enters an invalid format \"user#example.com\" in \"Adres e-mail\"",
             "result": {
               "status": "passed",
-              "duration": 463000000
+              "duration": 415000000
             }
           },
           {
@@ -248,7 +248,7 @@
             "name": "the user clicks the \"Dalej\" button",
             "result": {
               "status": "passed",
-              "duration": 244000000
+              "duration": 246000000
             }
           },
           {
@@ -258,7 +258,7 @@
             "name": "the following validation message appears under \"Adres e-mail\": \"Nieprawidłowy adres e-mail\"",
             "result": {
               "status": "passed",
-              "duration": 75000000
+              "duration": 85000000
             }
           },
           {
@@ -268,7 +268,7 @@
             "name": "the following alert appears: \"Prosimy uzupełnić wszystkie wymagane pola.\"",
             "result": {
               "status": "passed",
-              "duration": 30000000
+              "duration": 31000000
             }
           },
           {
@@ -278,7 +278,97 @@
             "name": "the customer remains on the first step of the registration form",
             "result": {
               "status": "passed",
-              "duration": 46000000
+              "duration": 47000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "registration-form-validation-tests;tc-03-verify-correct-error-message-appears-for-an-incorrect-phone-number-format",
+        "keyword": "Scenario",
+        "line": 39,
+        "name": "TC-03 Verify correct error message appears for an incorrect phone number format",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Navigate to the Website \"https://devtest.giganciprogramowania.edu.pl/zapisz-sie\"",
+            "result": {
+              "status": "passed",
+              "duration": 1999000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 40,
+            "name": "the user is on the first step of the registration form",
+            "result": {
+              "status": "passed",
+              "duration": 37000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 41,
+            "name": "the form fields are not prefilled",
+            "result": {
+              "status": "passed",
+              "duration": 77000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 42,
+            "name": "the user enters an invalid format \"12345665\" in \"Numer kontaktowy\"",
+            "result": {
+              "status": "passed",
+              "duration": 346000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 43,
+            "name": "the user clicks the \"Dalej\" button",
+            "result": {
+              "status": "passed",
+              "duration": 173000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 44,
+            "name": "the following validation message appears under \"Numer kontaktowy\": \"Niepoprawny numer telefonu. Numer powinien zawierać 9 cyfr, z opcjonalnym kierunkowym +48 lub +380 na początku.\"",
+            "result": {
+              "status": "passed",
+              "duration": 77000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 45,
+            "name": "the following alert appears: \"Prosimy uzupełnić wszystkie wymagane pola.\"",
+            "result": {
+              "status": "passed",
+              "duration": 31000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 46,
+            "name": "the customer remains on the first step of the registration form",
+            "result": {
+              "status": "passed",
+              "duration": 42000000
             }
           }
         ]
