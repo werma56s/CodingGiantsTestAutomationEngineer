@@ -5,9 +5,7 @@
   "main": "cypress.config.js",
   "scripts": {
     "cypress:run": "cypress run",
-    "generate-report-per-browser": "node cucumber-html-report.js",
-    "generate-report-for-all-browsers": "node cucumber-html-report-all-browsers.js",
-    "execute:report": "npm run cypress:run && npm run generate-report"
+    "generate-report-per-browser": "node html-report.js"
   },
   "author": "Weronika Gorska",
   "license": "ISC",
@@ -16,7 +14,7 @@
     "step_definitions": "cypress/e2e/step_definitions",
     "cucumberJson": {
       "generate": true,
-      "outputFolder": "cucumber_report_docker/",
+      "outputFolder": "cucumber_report/",
       "filePrefix": "",
       "fileSuffix": ".cucumber"
     }
@@ -27,5 +25,8 @@
   "devDependencies": {
     "cypress-cucumber-preprocessor": "^4.3.1",
     "multiple-cucumber-html-reporter": "^3.8.0"
+  },
+  "dependencies": {
+    "date-fns": "^4.1.0"
   }
 }
