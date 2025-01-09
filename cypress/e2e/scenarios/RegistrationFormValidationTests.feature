@@ -45,22 +45,22 @@ Feature: Registration Form Validation Tests
     And the following alert appears: "Prosimy uzupełnić wszystkie wymagane pola."
     And the customer remains on the first step of the registration form
 
-    # Scenario: TC-04 Verify successful submission of the first step with correct data
-    # Given the user is on the first step of the registration form
-    # And the form fields are not prefilled
-    # When the user fills in the following fields:
-    #     | Field                | Value                                    |
-    #     | Imię opiekuna        | Artur                                    |
-    #     | Adres e-mail         | karolgiganci+fakedata80696@gmail.com     |
-    #     | Numer kontaktowy     | 123456651                                |
-    #     | Rok urodzenia dziecka| 2005                                     |
-    # And the user checks the following checkboxes:
-    #     | Checkbox                                                        |
-    #     | Akceptuję regulamin oraz zapoznałem się z polityką prywatności  |
-    #     | Wyrażam zgodę na otrzymywanie informacji...                     |
-    # And the user clicks the "Dalej" button
-    # Then the customer is redirected to the second step of the registration form
-    # And the first step is marked as completed with a tick icon
+    Scenario: TC-04 Verify successful submission of the first step with correct data
+    Given the user is on the first step of the registration form
+    And the form fields are not prefilled
+    When the user fills in the following fields:
+        | Field                | Value                                    |
+        | Imię opiekuna        | Artur                                    |
+        | Adres e-mail         | karolgiganci+fakedata80696@gmail.com     |
+        | Numer kontaktowy     | 123456651                                |
+        | Rok urodzenia dziecka| 2005                                     |
+    And the user "checks" the following checkboxes:
+        | Checkbox                                                        |
+        | Akceptuję regulamin oraz zapoznałem się z polityką prywatności  |
+        | Wyrażam zgodę na otrzymywanie informacji...                     |
+    And the user clicks the "Dalej" button
+    Then the customer is redirected to the second step of the registration form
+    And the first step is marked as completed with a tick icon
 
     # Scenario: TC-05 Verify the registration flow for online annual courses
     # Given the user is on the first step of the registration form

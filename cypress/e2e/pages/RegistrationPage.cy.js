@@ -81,7 +81,10 @@ class RegistrationPage {
 
     // Assert a completed step with a tick icon
     assertStepCompleted(stepNumber) {
-        cy.get(`.step-${stepNumber}.completed`).should("have.class", "tick-icon");
+        cy.get(`.feature_registration-menu__item.d-flex.align-items-center.justify-content-center`)
+        .eq(stepNumber-1)
+        .find('.feature_registration-menu__item-tick')
+        .should('have.class', "icon-tick");
     }
 
     // Assert multiple steps are completed

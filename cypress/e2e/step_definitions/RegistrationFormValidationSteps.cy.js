@@ -75,7 +75,13 @@ Then("the following validation message appears under {string}: {string}", (field
 
 // Scenario: Verify successful submission of the first step with correct data
 When("the user fills in the following fields:", (dataTable) => {
-    RegistrationPage.fillFields(dataTable.hashes());
+    const fields = dataTable.rawTable.map(([label, Value]) =>  {
+        const Field = Object.keys(fieldLabels).find(key => fieldLabels[key] === label);
+        return { Field, Value };
+    }); 
+    fields.shift();
+    cy.log(JSON.stringify(fields), JSON.stringify(dataTable.rawTable));
+    RegistrationPage.fillFields(fields);
 });
 
 
