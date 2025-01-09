@@ -1,0 +1,198 @@
+[
+  {
+    "description": "    Test cases for registration module of registration website",
+    "keyword": "Feature",
+    "name": "Registration Form Validation Tests",
+    "line": 1,
+    "id": "registration-form-validation-tests",
+    "tags": [],
+    "uri": "RegistrationFormValidationTests.feature",
+    "elements": [
+      {
+        "id": "registration-form-validation-tests;verify-required-fields-for-the-first-step-of-the-registration-form",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Verify required fields for the first step of the registration form",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Navigate to the Website \"https://devtest.giganciprogramowania.edu.pl/zapisz-sie\"",
+            "result": {
+              "status": "passed",
+              "duration": 1948000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "the user is on the first step of the registration form",
+            "result": {
+              "status": "passed",
+              "duration": 32000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the form fields are not prefilled",
+            "result": {
+              "status": "passed",
+              "duration": 72000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Field"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Imię opiekuna"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Adres e-mail"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Numer kontaktowy"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Rok urodzenia dziecka"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 10,
+            "name": "the user leaves the following fields empty:",
+            "result": {
+              "status": "passed",
+              "duration": 773000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Checkbox"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Akceptuję regulamin oraz zapoznałem się z polityką prywatności"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Wyrażam zgodę na otrzymywanie informacji..."
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 16,
+            "name": "the user \"not checks\" the following checkboxes:",
+            "result": {
+              "status": "passed",
+              "duration": 51000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "the user clicks the \"Dalej\" button",
+            "result": {
+              "status": "passed",
+              "duration": 167000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Field",
+                      "Message"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Imię opiekuna",
+                      "Pole jest wymagane"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Adres e-mail",
+                      "Pole jest wymagane"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Numer kontaktowy",
+                      "Pole jest wymagane"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Rok urodzenia dziecka",
+                      "Pole jest wymagane"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "the following validation messages appear under each required field:",
+            "result": {
+              "status": "passed",
+              "duration": 267000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "the following alert appears: \"Prosimy uzupełnić wszystkie wymagane pola.\"",
+            "result": {
+              "status": "passed",
+              "duration": 38000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "the customer remains on the first step of the registration form",
+            "result": {
+              "status": "passed",
+              "duration": 55000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
