@@ -1,0 +1,31 @@
+{
+  "name": "codinggiantstestautomationengineer",
+  "version": "1.0.0",
+  "description": "[Recruitment] Test cases for registration module of registration website",
+  "main": "cypress.config.js",
+  "scripts": {
+    "cypress:run": "cypress run",
+    "generate-report-per-browser": "node cucumber-html-report.js",
+    "generate-report-for-all-browsers": "node cucumber-html-report-all-browsers.js",
+    "execute:report": "npm run cypress:run && npm run generate-report"
+  },
+  "author": "Weronika Gorska",
+  "license": "ISC",
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false,
+    "step_definitions": "cypress/e2e/step_definitions",
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cucumber_report_docker/",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+  },
+  "env": {
+    "resetBetweenTests": true
+  },
+  "devDependencies": {
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "multiple-cucumber-html-reporter": "^3.8.0"
+  }
+}
