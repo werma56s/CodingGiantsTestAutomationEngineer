@@ -24,6 +24,8 @@ Install the necessary dependencies, including Cypress, by running:
     npm install
 
 This will install all required packages listed in the package.json file.
+If Cypress is not installed on your computer, the installation steps will guide you through installing it (enter y): 
+![obraz](https://github.com/user-attachments/assets/d161bbaa-5464-4c6e-812f-94f658016b89)
 
 **Step 3 (Or Step 4): Open Cypress - Running Tests**
 Once the installation is complete, you can open Cypress in the interactive mode:
