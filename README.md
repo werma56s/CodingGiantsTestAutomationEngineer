@@ -32,6 +32,26 @@ Once the installation is complete, you can open Cypress in the interactive mode:
 
 This command will open the Cypress Test Runner, which allows you to select and run individual tests or run all tests in the suite.
 
+![obraz](https://github.com/user-attachments/assets/8715a272-6ec3-43b0-88a6-449e4042ce90)
+
+choose a broser and start
+
+![obraz](https://github.com/user-attachments/assets/1b40aa25-02da-4a5e-a99f-c728882a7f7c)
+
+In new browser instance you will see: 
+
+![obraz](https://github.com/user-attachments/assets/2caaae5f-6c47-4aad-921e-38529cc462dc)
+
+Click:
+
+![obraz](https://github.com/user-attachments/assets/e0fc8f4d-d1c1-4fae-8327-bd36aab9a051)
+
+Tests starts execute:
+
+![obraz](https://github.com/user-attachments/assets/fc53bf27-a7e9-4db5-8965-83e112cfe937)
+
+ 
+
 **Step 4: Running Tests in Headless Mode**
 To run the tests in headless mode (without UI), use the following command:
 
