@@ -53,7 +53,7 @@ Tests starts execute:
 
  
 
-**(Step 3 or) Step 4: Running Tests in Headless Mode**
+**(Optional)(Step 3 or) Step 4: Running Tests in Headless Mode**
 To run the tests in headless mode (without UI), use the following command:
 
 
@@ -67,7 +67,7 @@ or
 After running the tests, the following folders will appear: cucamber_raport and screensots. (Command in the terminal: npm run cypress:run or npx cypress run)
 This will execute all the tests.
 
-**Step 5: Test Reports**
+**(Optional) Step 5: Test Reports**
 To run the Test Reports:
 
 
