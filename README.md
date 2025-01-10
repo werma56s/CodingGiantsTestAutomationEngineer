@@ -41,7 +41,8 @@ or
 
     npm run cypress:run 
 
-![obraz](https://github.com/user-attachments/assets/b77c0ebc-6606-4073-bafc-d2b6587e957e)
+![obraz](https://github.com/user-attachments/assets/33e5a1bb-9c90-4c51-aa1c-52c2d822d84f)
+
 After running the tests, the following folders will appear: cucamber_raport and screensots. (Command in the terminal: npm run cypress:run or npx cypress run)
 This will execute all the tests.
 
@@ -51,12 +52,16 @@ To run the Test Reports:
 
     npm run generate-report-per-browser
 
-![obraz](https://github.com/user-attachments/assets/afab054e-4aae-44a4-ac8a-1850d2b0ed42)
+![obraz](https://github.com/user-attachments/assets/41977919-3167-405c-8d02-49e665872525)
+
+
 After generating the report, an additional folder appears in cucumber_report/cucumber-html.
 Report – feature level:
 
-![obraz](https://github.com/user-attachments/assets/a54bf2f7-3257-43b3-a2e1-e94f963a6a2a)
+![obraz](https://github.com/user-attachments/assets/4625d1b8-fd9f-4883-9092-9ddb483632c0)
+
 
 Report – Scenarios level:
 
-![obraz](https://github.com/user-attachments/assets/9f213679-a56d-4098-8405-84638667e197)
+![obraz](https://github.com/user-attachments/assets/42dbccd3-8b4a-4e2c-b9d2-41fc2ea302f9)
+
