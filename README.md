@@ -37,11 +37,13 @@ To run the tests in headless mode (without UI), use the following command:
 
 
     npx cypress run
+or
+
+    npm run cypress:run 
 
 ![obraz](https://github.com/user-attachments/assets/b77c0ebc-6606-4073-bafc-d2b6587e957e)
-
-
-This will execute all the tests in the cypress/integration folder.
+After running the tests, the following folders will appear: cucamber_raport and screensots. (Command in the terminal: npm run cypress:run or npx cypress run)
+This will execute all the tests.
 
 **Step 5: Test Reports**
 To run the Test Reports:
@@ -50,7 +52,7 @@ To run the Test Reports:
     npm run generate-report-per-browser
 
 ![obraz](https://github.com/user-attachments/assets/afab054e-4aae-44a4-ac8a-1850d2b0ed42)
-
+After generating the report, an additional folder appears in cucumber_report/cucumber-html.
 Report – feature level:
 
 ![obraz](https://github.com/user-attachments/assets/a54bf2f7-3257-43b3-a2e1-e94f963a6a2a)
