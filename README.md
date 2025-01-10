@@ -5,6 +5,7 @@ Before setting up Cypress, make sure the following tools are installed on your s
 
     Node.js (version 12 or later) - Install Node.js  
     npm (Node Package Manager) - Comes with Node.js
+    Visual Studio Code
 
 Setup Instructions
 
