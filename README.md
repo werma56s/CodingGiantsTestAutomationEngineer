@@ -24,7 +24,7 @@ Install the necessary dependencies, including Cypress, by running:
 
 This will install all required packages listed in the package.json file.
 
-**Step 3: Open Cypress**
+**Step 3: Open Cypress - Running Tests**
 Once the installation is complete, you can open Cypress in the interactive mode:
 
 
