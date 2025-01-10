@@ -1,3 +1,5 @@
+// The const object stores the mappings between the field names or ID (keys) and their respective labels (values).
+// This ensures that if the names or IDs change on the page, they only need to be updated here.
 export const fieldLabels = {
     parentName: "Imię opiekuna", 
     email: "Adres e-mail", 
