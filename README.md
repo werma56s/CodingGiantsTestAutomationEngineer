@@ -52,7 +52,9 @@ To run the Test Reports:
 ![obraz](https://github.com/user-attachments/assets/afab054e-4aae-44a4-ac8a-1850d2b0ed42)
 
 Report – feature level:
+
 ![obraz](https://github.com/user-attachments/assets/a54bf2f7-3257-43b3-a2e1-e94f963a6a2a)
 
 Report – Scenarios level:
+
 ![obraz](https://github.com/user-attachments/assets/9f213679-a56d-4098-8405-84638667e197)
