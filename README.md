@@ -24,7 +24,7 @@ Install the necessary dependencies, including Cypress, by running:
 
 This will install all required packages listed in the package.json file.
 
-**Step 3 Or Step 4: Open Cypress - Running Tests**
+**Step 3 (Or Step 4): Open Cypress - Running Tests**
 Once the installation is complete, you can open Cypress in the interactive mode:
 
 
@@ -52,7 +52,7 @@ Tests starts execute:
 
  
 
-**Step 3 Or Step 4: Running Tests in Headless Mode**
+**(Step 3 or) Step 4: Running Tests in Headless Mode**
 To run the tests in headless mode (without UI), use the following command:
 
 
