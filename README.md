@@ -3,8 +3,9 @@
 
 Before setting up Cypress, make sure the following tools are installed on your system:  
 
-    Node.js (version 12 or later) - Install Node.js  
+    Node.js (version 18.19 or later) - Install Node.js  
     npm (Node Package Manager) - Comes with Node.js
+    Visual Studio Code
 
 Setup Instructions
 
@@ -23,6 +24,8 @@ Install the necessary dependencies, including Cypress, by running:
     npm install
 
 This will install all required packages listed in the package.json file.
+If Cypress is not installed on your computer, the installation steps will guide you through installing it (enter y): 
+![obraz](https://github.com/user-attachments/assets/d161bbaa-5464-4c6e-812f-94f658016b89)
 
 **Step 3 (Or Step 4): Open Cypress - Running Tests**
 Once the installation is complete, you can open Cypress in the interactive mode:
@@ -52,7 +55,7 @@ Tests starts execute:
 
  
 
-**(Step 3 or) Step 4: Running Tests in Headless Mode**
+**(Optional)(Step 3 or) Step 4: Running Tests in Headless Mode**
 To run the tests in headless mode (without UI), use the following command:
 
 
@@ -66,7 +69,7 @@ or
 After running the tests, the following folders will appear: cucamber_raport and screensots. (Command in the terminal: npm run cypress:run or npx cypress run)
 This will execute all the tests.
 
-**Step 5: Test Reports**
+**(Optional) Step 5: Test Reports**
 To run the Test Reports:
 
 
