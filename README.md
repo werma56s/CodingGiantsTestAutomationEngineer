@@ -64,7 +64,7 @@ or
 
 ![obraz](https://github.com/user-attachments/assets/33e5a1bb-9c90-4c51-aa1c-52c2d822d84f)
 
-After running the tests, the following folders will appear: cucamber_raport and screensots. (Command in the terminal: npm run cypress:run or npx cypress run)
+After running the tests, the following folders will appear: cucumber_report and screenshots. (Command in the terminal: npm run cypress:run or npx cypress run)
 This will execute all the tests.
 
 **(Optional) Step 5: Test Reports**
