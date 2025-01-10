@@ -12,8 +12,8 @@ Start by cloning the repository to your local machine:
 git clone https://github.com/werma56s/CodingGiantsTestAutomationEngineer.git
 cd CodingGiantsTestAutomationEngineer
 
-**Step 2: Install Dependencies
-**Install the necessary dependencies, including Cypress, by running:
+**Step 2: Install Dependencies**
+Install the necessary dependencies, including Cypress, by running:
 
 npm install
 
