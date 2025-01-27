@@ -24,8 +24,6 @@ Install the necessary dependencies, including Cypress, by running:
     npm install
 
 This will install all required packages listed in the package.json file.
-If Cypress is not installed on your computer, the installation steps will guide you through installing it (enter y): 
-![obraz](https://github.com/user-attachments/assets/d161bbaa-5464-4c6e-812f-94f658016b89)
 
 **Step 3 (Or Step 4): Open Cypress - Running Tests**
 Once the installation is complete, you can open Cypress in the interactive mode:
@@ -37,7 +35,7 @@ This command will open the Cypress Test Runner, which allows you to select and r
 
 ![obraz](https://github.com/user-attachments/assets/8715a272-6ec3-43b0-88a6-449e4042ce90)
 
-choose a broser and start
+Choose a browser and start:
 
 ![obraz](https://github.com/user-attachments/assets/1b40aa25-02da-4a5e-a99f-c728882a7f7c)
 
@@ -66,8 +64,7 @@ or
 
 ![obraz](https://github.com/user-attachments/assets/33e5a1bb-9c90-4c51-aa1c-52c2d822d84f)
 
-After running the tests, the following folders will appear: cucamber_raport and screensots. (Command in the terminal: npm run cypress:run or npx cypress run)
-This will execute all the tests.
+After running the tests, the following folders will appear: cucumber_report and cypress/screenshots.
 
 **(Optional) Step 5: Test Reports**
 To run the Test Reports:
