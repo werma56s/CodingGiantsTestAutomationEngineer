@@ -13,11 +13,12 @@ export const checkboxInputsID = {
 }
 
 export const coursesKindBroupNumber = {
-    0: "BEZPŁATNE ZAJĘCIA STACJONARNE", 
-    1: "PROGRAMOWANIE",
-    2: "GRAFIKA I WIDEO",
-    3: "MATEMATYKA",
-    4: "BEZPŁATNA LEKCJA PRÓBNA"                      
+    0: "BEZPŁATNA LEKCJA PRÓBNA",  
+    1: "BEZPŁATNE ZAJĘCIA STACJONARNE", 
+    2: "PROGRAMOWANIE",
+    3: "GRAFIKA I WIDEO",
+    4: "MATEMATYKA",
+                        
 }
 
 export const fieldLabelsSaveToCourse = {
