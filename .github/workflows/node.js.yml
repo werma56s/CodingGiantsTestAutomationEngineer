@@ -26,6 +26,7 @@ jobs:
       - name: Install cypress
         run: |
          npm install
+         continue-on-error: true
       
       - name: Run tests
         run: |
