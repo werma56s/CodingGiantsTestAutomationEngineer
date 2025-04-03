@@ -15,7 +15,7 @@ jobs:
 
     steps:
       - name: Checkout code
-      - uses: actions/checkout@v4
+        uses: actions/checkout@v4
       
       - name: Use Node.js 18.19.0
         uses: actions/setup-node@v4
@@ -24,10 +24,13 @@ jobs:
           cache: 'npm'
           
       - name: Install cypress
-      - run: npm install
+        run: |
+         npm install
       
       - name: Run tests
-      - run: npx cypress run
+        run: |
+         npx cypress run
       
       - name: Generate report
-      - run: npm run generate-report-per-browser
+        run: |
+         npm run generate-report-per-browser
