@@ -45,6 +45,7 @@ Feature: Registration Form Validation Tests
     And the following alert appears: "Prosimy uzupełnić wszystkie wymagane pola."
     And the customer remains on the first step of the registration form
 
+@smoke_tests
     Scenario: TC-04 Verify successful submission of the first step with correct data
     Given the user is on the first step of the registration form
     And the form fields are not prefilled

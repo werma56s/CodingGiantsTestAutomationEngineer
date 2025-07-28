@@ -6,6 +6,7 @@
   "scripts": {
     "cypress:run": "cypress run",
     "cypress:jenkins": "cypress run --browser chrome --headless",
+    "cypress:jenkins_tags": "cypress run --browser chrome --headless --env TAGS='@smoke_tests'",
     "generate-report-per-browser": "node html-report.js"
   },
   "author": "Weronika Gorska",

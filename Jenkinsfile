@@ -11,7 +11,7 @@ pipeline {
     stage('Testing...') {
       steps {
         echo 'Run tests'
-        bat "npm run cypress:jenkins"
+        bat "npm run cypress:jenkins_tags"
       }
     }
   }
