@@ -5,13 +5,13 @@ pipeline {
     stage('Build..') {
       steps {
         echo 'Add dependencies'
-        // sh "npm install"
+        bat "npm install"
       }
     }
     stage('Testing...') {
       steps {
         echo 'Run tests'
-        sh "npm run cypress:jenkins"
+        bat "npm run cypress:jenkins"
       }
     }
     stage('End...') {
