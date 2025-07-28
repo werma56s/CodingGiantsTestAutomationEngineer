@@ -11,7 +11,7 @@ pipeline {
     stage('Testing...') {
       steps {
         echo 'Run tests'
-        bat "npx cypress run --browser chrome --headless --env TAGS='@smoke_tests"
+        bat "npx cypress run --browser chrome --headless --env TAGS='@smoke_tests'"
       }
     }
   }
