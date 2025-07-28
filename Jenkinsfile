@@ -5,7 +5,7 @@ pipeline {
     stage('Build..') {
       steps {
         echo 'Add dependencies'
-        sh "npm run cypress:run"
+        sh "npm install"
       }
     }
     stage('Testing...') {
