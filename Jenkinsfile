@@ -11,7 +11,7 @@ pipeline {
     stage('Testing...') {
       steps {
         echo 'Run tests'
-        sh "npm run cypress:run"
+        sh "npm run cypress:jenkins"
       }
     }
     stage('End...') {

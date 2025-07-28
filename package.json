@@ -5,6 +5,7 @@
   "main": "cypress.config.js",
   "scripts": {
     "cypress:run": "cypress run",
+    "cypress:jenkins": "cypress run --browser chrome --headless",
     "generate-report-per-browser": "node html-report.js"
   },
   "author": "Weronika Gorska",
