@@ -14,10 +14,11 @@ pipeline {
         bat "npm run cypress:jenkins"
       }
     }
-    stage('End...') {
-        steps {
-            echo 'End'
-        }
-        }
+  }
+
+  post{
+      always{
+        publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, icon: '', keepAll: true, reportDir: 'cucumber_report/HTMLReports', reportFiles: 'index.html', reportName: 'HTML Report', reportTitles: '', useWrapperFileDirectly: true])
     }
+  }
 }
