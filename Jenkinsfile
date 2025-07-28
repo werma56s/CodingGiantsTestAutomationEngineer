@@ -13,7 +13,7 @@ pipeline {
         echo 'Run tests'
         //bat "npm run cypress:jenkins" //working
         //bat "npx cypress run --env TAGS=\'@smoke_tests\'"
-        bat '''npx cypress run --browser chrome --headless --env TAGS=\'@smoke_tests\'''' //not IN JENKINS BUT WORK IN CONSOLE
+        bat '''npx cypress run --browser chrome --headless --env TAGS="@smoke_tests"'''//not IN JENKINS BUT WORK IN CONSOLE
       }
     }
   }
