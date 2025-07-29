@@ -7,8 +7,8 @@
 2. [Jenkins Configuration on Windows](#jenkinsconfigurationwindows)
 
 ---
-<a name="codinggiantstestautomationengineer"/>
-## Project Configuration
+<a name="codinggiantstestautomationengineer"/> </a>
+## Project Configuration 
 
 Before setting up Cypress, make sure the following tools are installed on your system:  
 
