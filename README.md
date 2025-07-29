@@ -4,7 +4,7 @@
 # Table of Contents
 
 1. [Project Configuration](#codinggiantstestautomationengineer)
-2. [Jenkins Configuration on Windows](#jenkins-configuration-windows)
+2. [Jenkins Configuration on Windows](#jenkinsconfigurationwindows)
 
 ---
 
@@ -94,7 +94,7 @@ Report – Scenarios level:
 
 ![obraz](https://github.com/user-attachments/assets/42dbccd3-8b4a-4e2c-b9d2-41fc2ea302f9)
 
-## Jenkins Configuration on Windows
+##  Jenkins Configuration on Windows
 
 ## Prerequisites
 - Jenkins installed on Windows
