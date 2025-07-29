@@ -1,5 +1,5 @@
 # CodingGiantsTestAutomationEngineer
-[Recruitment] Test cases for registration module of registration website
+Test cases for registration module of registration website
 
 # Table of Contents
 
@@ -95,8 +95,10 @@ Report – Scenarios level:
 ![obraz](https://github.com/user-attachments/assets/42dbccd3-8b4a-4e2c-b9d2-41fc2ea302f9)
 
 ---
-<a name="jenkinsconfigurationwindows"/>
-##  Jenkins Configuration on Windows
+<a name="jenkinsconfigurationwindows"/> </a>
+## Jenkins Configuration on Windows
+
+---
 
 ## Prerequisites
 - Jenkins installed on Windows
