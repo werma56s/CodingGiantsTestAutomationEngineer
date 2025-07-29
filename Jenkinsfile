@@ -10,12 +10,27 @@ pipeline {
     }
     stage('Testing...') {
       steps {
-        echo 'Run tests'
-        //bat "npm run cypress:jenkins" //working
+        echo 'Run tests with tags'
+        //bat "npm run cypress:jenkins" 
         //bat 'npx cypress run --browser chrome --headless --env TAGS="@smoke_tests"'
-        bat "npm run cypress:jenkins-tags-windows" //working
+        bat "npm run cypress:jenkins-tags-windows" 
       }
     }
+    //testing parallel
+      stage('Parallel Stage Example') {
+            parallel {
+                stage('Running TAG=incorrect_fields Tests...') {
+                    steps {
+                        bat 'npm run cypress:jenkins-tags-windows_incorrect_fields'
+                    }
+                }
+                stage('Running TAG=required_fields Tests...') {
+                    steps {
+                        bat 'npm run cypress:jenkins-tags-windows_required_fields'
+                    }
+                }
+            }
+        }
   }
 
   post{

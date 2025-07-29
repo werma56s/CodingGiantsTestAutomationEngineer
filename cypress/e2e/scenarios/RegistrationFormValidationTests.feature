@@ -4,6 +4,7 @@ Feature: Registration Form Validation Tests
     Background: Navigate to the Website
         Given Navigate to the Website "https://devtest.giganciprogramowania.edu.pl/zapisz-sie"
 
+    @required_fields
     Scenario: TC-01 Verify required fields for the first step of the registration form
     Given the user is on the first step of the registration form
     And the form fields are not prefilled
@@ -27,6 +28,7 @@ Feature: Registration Form Validation Tests
     And the following alert appears: "Prosimy uzupełnić wszystkie wymagane pola."
     And the customer remains on the first step of the registration form    
 
+    @incorrect_fields
     Scenario: TC-02 Verify correct error message appears for an incorrect email format
     Given the user is on the first step of the registration form
     And the form fields are not prefilled
@@ -36,6 +38,7 @@ Feature: Registration Form Validation Tests
     And the following alert appears: "Prosimy uzupełnić wszystkie wymagane pola."
     And the customer remains on the first step of the registration form
 
+    @incorrect_fields
     Scenario: TC-03 Verify correct error message appears for an incorrect phone number format
     Given the user is on the first step of the registration form
     And the form fields are not prefilled

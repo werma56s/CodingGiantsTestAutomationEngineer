@@ -7,6 +7,8 @@
     "cypress:run": "cypress run",
     "cypress:jenkins": "cypress run --browser chrome --headless",
     "cypress:jenkins-tags-windows": "cypress run --browser chrome --headless --env TAGS=\"@smoke_tests\"",
+    "cypress:jenkins-tags-windows_incorrect_fields": "cypress run --browser chrome --headless --env TAGS=\"@incorrect_fields\"",
+    "cypress:jenkins-tags-windows_required_fields": "cypress run --browser chrome --headless --env TAGS=\"@required_fields\"",
     "generate-report-per-browser": "node html-report.js"
   },
   "author": "Weronika Gorska",
