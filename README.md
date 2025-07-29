@@ -7,7 +7,7 @@
 2. [Jenkins Configuration on Windows](#jenkinsconfigurationwindows)
 
 ---
-
+<a name="codinggiantstestautomationengineer"/>
 ## Project Configuration
 
 Before setting up Cypress, make sure the following tools are installed on your system:  
@@ -94,6 +94,8 @@ Report – Scenarios level:
 
 ![obraz](https://github.com/user-attachments/assets/42dbccd3-8b4a-4e2c-b9d2-41fc2ea302f9)
 
+---
+<a name="jenkinsconfigurationwindows"/>
 ##  Jenkins Configuration on Windows
 
 ## Prerequisites
